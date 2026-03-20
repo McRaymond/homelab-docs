@@ -145,7 +145,9 @@ This home lab project reflects practical experience in:
 - Monitoring and troubleshooting
 - Infrastructure documentation
 
+## Diagram
 
+- [Home Lab Overview](diagrams/homelab-overview.drawio)
 
 ## Notes
 

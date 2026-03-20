@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Page-1" id="yPH6vXVy1WkEaxgrCGia">
+    <mxGraphModel dx="2612" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=26;fontStyle=1" value="Home Lab + AI Automation Overview" vertex="1">
+          <mxGeometry height="40" width="420" x="680" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#666666" value="Infrastructure, Networking, Monitoring, and AI Automation Services on the Mac mini" vertex="1">
+          <mxGeometry height="24" width="660" x="560" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontSize=15;fontStyle=1;verticalAlign=top;spacingTop=8" value="Edge / Network Layer" vertex="1">
+          <mxGeometry height="150" width="1830" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontSize=15;fontStyle=1;verticalAlign=top;spacingTop=8" value="Core Compute / Infrastructure" vertex="1">
+          <mxGeometry height="260" width="1840" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontSize=15;fontStyle=1;verticalAlign=top;spacingTop=8" value="Platform Services" vertex="1">
+          <mxGeometry height="190" width="1840" x="40" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#cccccc;fontSize=15;fontStyle=1;verticalAlign=top;spacingTop=8" value="AI / Automation / Agent Layer" vertex="1">
+          <mxGeometry height="510" width="1840" x="40" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1" value="Internet" vertex="1">
+          <mxGeometry height="58" width="180" x="140" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14" value="Cloudflare Tunnel\nSecure External Access" vertex="1">
+          <mxGeometry height="78" width="220" x="420" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14" value="Tailscale\nPrivate Mesh / Remote Admin" vertex="1">
+          <mxGeometry height="78" width="220" x="420" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1" value="Router / Firewall" vertex="1">
+          <mxGeometry height="78" width="200" x="790" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1" value="Core Switch / UniFi VLANs • DHCP Reservations" vertex="1">
+          <mxGeometry height="78" width="250" x="1120" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14" value="Network Services AdGuard Home • DNS • DHCP" vertex="1">
+          <mxGeometry height="78" width="280" x="1560" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" value="BossGame B95 Ubuntu LTS • Docker • Main Compute" vertex="1">
+          <mxGeometry height="100" width="280" x="90" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" value="CasaOS Node Self-Hosted Apps / Management" vertex="1">
+          <mxGeometry height="100" width="250" x="420" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" value="ZimaOS Node 1 Containers / Storage / Utility Services" vertex="1">
+          <mxGeometry height="100" width="260" x="720" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" value="ZimaOS Node 2\ Expansion / Testing / Backup Workloads" vertex="1">
+          <mxGeometry height="100" width="260" x="1030" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" value="Mac mini / Utility Node Management • Dev • Experiments" vertex="1">
+          <mxGeometry height="100" width="250" x="1340" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14" value="Clients / Endpoints\nPCs • Phones • TVs • Smart Devices" vertex="1">
+          <mxGeometry height="100" width="200" x="1640" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14" value="Shared Storage / Backups\nSSD • External Drives • NAS Expansion" vertex="1">
+          <mxGeometry height="45" width="330" x="550" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14" value="Rack / Power / Physical Infrastructure\nCable Management • Mounts • Expansion" vertex="1">
+          <mxGeometry height="45" width="360" x="970" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" value="Monitoring Grafana • Prometheus" vertex="1">
+          <mxGeometry height="78" width="240" x="90" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" value="Workflow Automation n8n • Bots • Notifications" vertex="1">
+          <mxGeometry height="78" width="260" x="390" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" value="Media Stack Plex • Jellyseerr • Radarr • Sonarr • Prowlarr • qBittorrent" vertex="1">
+          <mxGeometry height="98" width="430" x="710" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" value="Dashboards / Ops Mission Control • Logs • Service Health" vertex="1">
+          <mxGeometry height="78" width="290" x="1200" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" value="Dev / Admin Utilities GitHub • Scripts • Testing" vertex="1">
+          <mxGeometry height="78" width="240" x="1550" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;fontStyle=1;verticalAlign=top;spacingTop=8" value="AI Automation Layer (Hosted on Mac mini)" vertex="1">
+          <mxGeometry height="440" width="920" x="540" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" value="OpenClaw Platform Agent Orchestration / Local AI Services" vertex="1">
+          <mxGeometry height="85" width="280" x="740" y="892.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" value="AI Agents Task Agents • Assistant Personas • Workflow Helpers" vertex="1">
+          <mxGeometry height="85" width="290" x="720" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" value="LLM / Inference Services Local Models • API Models • Routing Layer" vertex="1">
+          <mxGeometry height="85" width="280" x="1155" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" value="Memory / Knowledge Layer Context Storage • Docs • Prompt Assets" vertex="1">
+          <mxGeometry height="85" width="290" x="1100" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" value="Automation Integrations Telegram • Webhooks • APIs • Internal Services" vertex="1">
+          <mxGeometry height="40" width="300" x="1040" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14" value="AI Use Cases Chat Assistants • Infra Automation • Monitoring Summaries • Content Help • Internal Tooling" vertex="1">
+          <mxGeometry height="45" width="600" x="730" y="1235" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-33" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-7" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-8" value="traffic">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-34" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-7" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-9" value="private access">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-35" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-8" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-10" value="ingress">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-36" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-9" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-10" value="admin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-37" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-10" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-11" value="lan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-38" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-11" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-12" value="dns / dhcp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-39" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-11" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-13" value="docker / services">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-40" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-11" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-14" value="apps">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-41" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-11" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-15" value="utility workloads">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-42" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-11" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-16" value="testing / backup">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-43" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-11" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-17" value="management">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-44" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-11" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-18" value="access">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-45" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-13" style="endArrow=block;html=1;rounded=0;strokeWidth=2;dashed=1" target="vHA-Ufm82UZ2wYM6UF4k-21" value="metrics">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-46" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-14" style="endArrow=block;html=1;rounded=0;strokeWidth=2;dashed=1" target="vHA-Ufm82UZ2wYM6UF4k-22" value="workflows">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-47" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-15" style="endArrow=block;html=1;rounded=0;strokeWidth=2;dashed=1" target="vHA-Ufm82UZ2wYM6UF4k-23" value="streaming / requests">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-48" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-17" style="endArrow=block;html=1;rounded=0;strokeWidth=2;dashed=1" target="vHA-Ufm82UZ2wYM6UF4k-24" value="status / views">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-49" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-18" style="endArrow=block;html=1;rounded=0;strokeWidth=2;dashed=1" target="vHA-Ufm82UZ2wYM6UF4k-25" value="scripts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-50" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-17" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-27" value="AI runtime">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-51" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-27" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-28" value="orchestrates">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-52" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-28" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-29" value="model calls">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-53" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-28" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-30" value="context">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-54" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-28" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-31" value="actions">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-55" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-22" style="endArrow=block;html=1;rounded=0;strokeWidth=2;dashed=1" target="vHA-Ufm82UZ2wYM6UF4k-28" value="triggers">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-56" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-21" style="endArrow=block;html=1;rounded=0;strokeWidth=2;dashed=1" target="vHA-Ufm82UZ2wYM6UF4k-28" value="alerts / summaries">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-57" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-23" style="endArrow=block;html=1;rounded=0;strokeWidth=2;dashed=1" target="vHA-Ufm82UZ2wYM6UF4k-31" value="service data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-58" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-25" style="endArrow=block;html=1;rounded=0;strokeWidth=2;dashed=1" target="vHA-Ufm82UZ2wYM6UF4k-30" value="knowledge / docs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vHA-Ufm82UZ2wYM6UF4k-59" edge="1" parent="1" source="vHA-Ufm82UZ2wYM6UF4k-31" style="endArrow=block;html=1;rounded=0;strokeWidth=2" target="vHA-Ufm82UZ2wYM6UF4k-32" value="results">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
